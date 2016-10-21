@@ -19,11 +19,17 @@ function whatTime() {
 			return i;
 
 }
-			 document.getElementById('txt').innerHTML = "#" + h  + m  + s;
+			 
+			  document.getElementById('txt').innerHTML = "#" + h  + m  + s;
+			 document.getElementById("txt").style.backgroundColor = ("#"+h+m+s)
+
+			 // var color= "#hms"
+			 // document.getElementById("mainbox").style.backgroundColor = "#"h+m+s;
+
+			 // document.getElementById("mainbox").style.backgroundColor = [color];
 		}
 			var interval = window.setInterval(whatTime,1000); 
 			
-
 
 
 
